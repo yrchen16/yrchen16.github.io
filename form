@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ch.8</title>
+</head>
+<body>
+<h2>Application for Christmas Gifts</h2>
+  <form>
+    Name <input type="text" name="Name"><br>
+    <p>Email <input type="email" name="Email"></p>
+    <p>Gender <input type="radio" name="Gender">Male <input type="radio" name="Gender">Female</p>
+    <p>Purpose <input type="checkbox">Just for fun <input type="checkbox">Making friend <input type="checkbox">Kill time</p>
+    Section
+    <select>
+    <option>Taipei</option>
+    <option>Taichung</option>
+    <option>Kaohsiung</option>
+    </select>
+    <p>If something want to say, please leave message here</p>
+    <p><textarea cols="100" rows="5"></textarea></p>
+    <p>How many gifts you want to exchange <input type="number"></p>
+    <p>Date <input type="date"></p>
+    <p><input type="submit"></p>
+    </form>
+</body>
+</html>
